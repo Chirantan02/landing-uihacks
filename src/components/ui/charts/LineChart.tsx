@@ -57,4 +57,4 @@ export function LineChart({
       <Line data={data} options={options || defaultOptions} />
     </div>
   );
-} 
+}
