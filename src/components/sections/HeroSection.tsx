@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Button } from '../ui/button';
 import { ArrowRight, CheckCircle, Play } from 'lucide-react';
-import { ParticlesContainer } from '../ui/ParticlesContainer';
+// ParticlesContainer removed as it's not used
 import Link from 'next/link';
 
 // Animated highlight component
