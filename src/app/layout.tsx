@@ -1,6 +1,5 @@
 import './globals.css';
 import { Metadata } from 'next';
-import { ClientLayout } from '@/components/layout/client-layout';
 import { Inter, Poppins, Montserrat } from 'next/font/google'
 
 const inter = Inter({

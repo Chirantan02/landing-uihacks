@@ -1,6 +1,6 @@
 "use client"
 
-import { cn } from "@/lib/utils"
+import { cn } from "../../lib/utils"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { ArrowRight, Loader2 } from "lucide-react"
@@ -235,3 +235,4 @@ function BackgroundEffect() {
     </div>
   )
 }
+
