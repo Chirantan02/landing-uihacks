@@ -1,4 +1,5 @@
 import { NextConfig } from 'next';
+import { withAxiom } from './lib/next-axiom-mock';
 
 /** @type {import('next').NextConfig} */
 const nextConfig: NextConfig = {
@@ -15,4 +16,4 @@ const nextConfig: NextConfig = {
   ],
 } as const;
 
-export default nextConfig;
+export default withAxiom(nextConfig);
