@@ -1,0 +1,47 @@
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes shake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-10px);
+  }
+  75% {
+    transform: translateX(10px);
+  }
+}
+
+.slide-in {
+  animation: slideIn 300ms ease-out;
+}
+
+.fade-in {
+  animation: fadeIn 300ms ease-out;
+}
+
+.shake {
+  animation: shake 300ms ease-in-out;
+}
+
+.transition-all {
+  transition: all 300ms ease-in-out;
+} 

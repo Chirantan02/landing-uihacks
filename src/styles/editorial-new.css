@@ -1,0 +1,31 @@
+/* Clash Display Font Styles */
+
+/* Base heading styles */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-clash-display), sans-serif;
+  letter-spacing: -0.02em;
+}
+
+/* Font class for explicit usage */
+.font-editorial {
+  font-family: var(--font-clash-display), sans-serif;
+}
+
+/* Heading variants */
+.heading-1 {
+  font-family: var(--font-clash-display), sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+.heading-2 {
+  font-family: var(--font-clash-display), sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.heading-3 {
+  font-family: var(--font-clash-display), sans-serif;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
