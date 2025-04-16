@@ -5,7 +5,6 @@ export * from "./badge";
 export * from "./dialog";
 export * from "./select";
 export * from "./label";
-export * from "./calendar";
 export * from "./popover";
 export * from "./tabs";
 export * from "./toast";
