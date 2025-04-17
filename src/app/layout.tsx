@@ -1,6 +1,7 @@
 import './globals.css';
 import { Metadata } from 'next';
 import { Inter, Poppins, Montserrat } from 'next/font/google'
+import { Analytics } from '@vercel/analytics/react'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -34,7 +35,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${inter.variable} ${poppins.variable} ${montserrat.variable} font-sans`}>
-      <body className="antialiased">{children}</body>
+      <body className="antialiased">
+        {children}
+        <Analytics />
+      </body>
     </html>
   )
 }
