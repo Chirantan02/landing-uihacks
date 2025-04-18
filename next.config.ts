@@ -1,5 +1,5 @@
 import { NextConfig } from 'next';
-import { withAxiom } from './lib/next-axiom-mock';
+import { withAxiom } from './src/lib/next-axiom-mock';
 
 /** @type {import('next').NextConfig} */
 const nextConfig: NextConfig = {

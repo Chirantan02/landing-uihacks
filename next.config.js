@@ -1,4 +1,4 @@
-const { withAxiom } = require('./lib/next-axiom-mock');
+const { withAxiom } = require('./src/lib/next-axiom-mock');
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
