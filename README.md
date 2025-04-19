@@ -4,7 +4,7 @@
 
 This project is an entry for a frontend competition with the theme: **"Design a subscription service with pricing plans and signup."**
 
-**Live Demo:** [https://product-catalog-uihacks.vercel.app/](https://product-catalog-uihacks.vercel.app/)
+**Live Demo:** [https://landing-uihacks--seven.vercel.app//](https://product-catalog-uihacks.vercel.app/)
 
 ## 📋 Project Overview
 
